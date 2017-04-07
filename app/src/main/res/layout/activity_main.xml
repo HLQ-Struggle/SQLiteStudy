@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.hlq.sqlitestudy.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="本Demo用于对SQLite简单了解与基本运用,同时也是个人对SQLite使用过程中的一个总结，方便你我他，如果有不正确的地方，欢迎大家及时指出，谢谢~"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="以下分别为大家展示通过Android自带方法和使用SQL语句如何实现我们的需求，其实个人感觉都俩者之间区别不是很大，Android提供的方法内部也不过是拼接SQL语句"/>
+
+    <Button
+        android:id="@+id/btn_api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用 Android 提供API"/>
+
+    <Button
+        android:id="@+id/btn_sql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用 SQL 语句"/>
+
+</LinearLayout>
